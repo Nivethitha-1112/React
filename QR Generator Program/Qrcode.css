@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel:wght@200;300;400;600;700;800;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: "Martel", serif;
+}
+.app-container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.app-container h1{
+    font-weight: 400;
+    font-size: 18px;
+    color: #4c4cfd;
+    border-bottom: 1px solid #ccc;
+    padding: 8px 0px;
+}
+.qr-code-image {
+    padding: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.623);
+}
+.input-label{
+    display: block;
+    margin-bottom: 8px;
+    color:#4c4cfd;
+    font-size: 15px;
+    font-weight: 600px;
+}
+input[type="text"] {
+    padding: 12px;
+    margin-bottom: 20px;
+    width:100%;
+    font-size: 16px;
+    border: 1px solid #4c4cfd;
+    border-radius: 5px;
+}
+
+button{
+    padding: 15px 20px;
+    font-size: 16px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.generate-button {
+    background-color: #3498db;
+}
+.generate-button:disabled {
+    background-color: #98d4fc;
+    cursor: not-allowed;
+}
+.download-button {
+    background-color: rgb(56, 165, 56);
+    margin-left: 10px;
+}
+.download-button:disabled {
+    background-color:rgb(171, 255, 171);
+    cursor: not-allowed;
+}
