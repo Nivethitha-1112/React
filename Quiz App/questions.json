@@ -1,0 +1,33 @@
+[
+    {
+      "id": 1,
+      "question": "What color is the sky on a clear day?",
+      "options": ["Blue", "Red", "Green", "Yellow"],
+      "correctOption": "Blue"
+    },
+    {
+      "id": 2,
+      "question": "How many days are there in a week?",
+      "options": ["7", "5", "10", "6"],
+      "correctOption": "7"
+    },
+    {
+      "id": 3,
+      "question": "What is the capital of the United States?",
+      "options": ["Washington, D.C.", "New York City", "Los Angeles", "Chicago"],
+      "correctOption": "Washington, D.C."
+    },
+    {
+      "id": 4,
+      "question": "What is 2 + 2?",
+      "options": ["4", "3", "5", "6"],
+      "correctOption": "4"
+    },
+    {
+      "id": 5,
+      "question": "What is the opposite of 'hot'?",
+      "options": ["Cold", "Warm", "Cool", "Freezing"],
+      "correctOption": "Cold"
+    }
+  ]
+  

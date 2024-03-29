@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Carlito&family=Hind+Madurai:wght@300;400;500;600;700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Riot&family=Roboto&display=swap');
+
+*{
+  font-family: "Hind Madurai", sans-serif;
+  font-weight: 500;
+  font-style: regular;
+  margin: 0;
+  padding:0;
+}
+
+body{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f8ff;
+}
+
+.quiz-name{
+  width: 600px;
+  height: auto;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(128, 128, 128, 0.767);
+  border-radius: 5px;
+}
+
+.questions{
+  text-align: center;
+}
+
+.questions h2{
+  margin: 10px 0px;
+  font-weight: 800;
+  color:#017070 ;
+}
+
+.questions p{
+  font-size: 20px;
+  font-weight: 600;
+  padding: 7px;
+}
+
+.options{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:10px;
+  margin-top: 20px; 
+}
+
+button{
+  padding: 10px 15px;
+  font-size: 15px;
+  border-radius: 30px;
+  border: none;
+  background-color: #03b1b1;
+  cursor: pointer;
+  transition:background-color 0.3s;
+}
+
+button:hover{
+  filter:brightness(1.2);
+}
+
+.timer{
+  margin-top: 20px;
+  font-size:18px;
+  color:#555;
+}
+
+.timer span{
+  font-weight: 800;
+}
+
+.score{
+  text-align: center;
+}
+
+.score h2{
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.score button{
+  background-color: rgb(223, 36, 3);
+  color: white;
+}
