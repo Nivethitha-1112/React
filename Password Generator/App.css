@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300..700&display=swap');
+
+* {
+    font-family: "Signika Negative", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(211, 234, 255);
+}
+
+.password-generator {
+    max-width: 400px;
+    background-color: white;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.password-generator h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #007bff;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.input-group,
+.checkbox-group,
+.genrated-password {
+    margin-bottom: 15px;
+}
+
+.checkbox-group {
+    display: flex;
+    align-items: center;
+}
+
+.checkbox-group input {
+    margin-right: 8px;
+}
+
+.input-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+}
+
+.generate-btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.generate-btn:hover {
+    background-color: blue;
+}
+
+.generated-password {
+    margin-top: 10px;
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+input[type="text"] {
+    border: none;
+    flex: 1;
+    padding: 10px;
+    outline: none;
+}
+
+.copy-btn {
+    border: none;
+    padding: 5px;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
