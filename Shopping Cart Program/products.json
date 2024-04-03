@@ -1,0 +1,48 @@
+[
+    {
+      "id": 89,
+      "name": "Pizza",
+      "amt": 299,
+      "shop": "Pizza Hut",
+      "type": "Food",
+      "pic": "https://app.tutorjoes.in/img/food/89.jpg",
+      "latest": "No"
+    },
+    {
+        "id": 90,
+        "name": "Parotta",
+        "amt": 99,
+        "shop": "Malabar Paratha",
+        "type": "Food",
+        "pic": "https://images.news18.com/ibnlive/uploads/2022/06/malabar-paratha.jpgg",
+        "latest": "No"
+      },
+      {
+        "id": 91,
+        "name": "Burger",
+        "amt": 199,
+        "shop": "Mc Donalds",
+        "type": "Food",
+        "pic": "https://img.freepik.com/free-photo/delicious-burger-with-many-ingredients-isolated-white-background-tasty-cheeseburger-splash-sauce_90220-1266.jpg?size=338&ext=jpg&ga=GA1.1.1700460183.1712016000&semt=sph",
+        "latest": "No"
+      },
+      {
+        "id": 92,
+        "name": "Biryani",
+        "amt": 299,
+        "shop": "Babu Biryani",
+        "type": "Food",
+        "pic": "https://media.istockphoto.com/id/1345624336/photo/chicken-biriyani.jpg?s=612x612&w=0&k=20&c=adU_N0P-1SKMQLZu5yu7aPknfLLgbViI8XILqLP92A4=",
+        "latest": "No"
+      },
+      {
+        "id": 93,
+        "name": "Meals",
+        "amt": 119,
+        "shop": "Annapoorna",
+        "type": "Food",
+        "pic": "https://thumbs.dreamstime.com/b/south-indian-meals-served-banana-leaf-traditional-cuisine-57371330.jpg",
+        "latest": "No"
+      }
+  ]
+  
