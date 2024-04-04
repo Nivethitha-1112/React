@@ -23,3 +23,15 @@
     color:#fff;
     text-decoration: none;
 }
+.cart-count{
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    background-color: yellowgreen;
+    padding: 2px;
+    border-radius: 50%;
+    font-size: 12px;
+    text-align: center;
+    color: #fff;
+    margin-right: 10px;
+}
