@@ -1,48 +1,93 @@
 [
     {
-      "id": 89,
-      "name": "Pizza",
+      "id": 1,
+      "name": "Tshirt",
       "amt": 299,
-      "shop": "Pizza Hut",
-      "type": "Food",
-      "pic": "https://app.tutorjoes.in/img/food/89.jpg",
+      "shop": "Zudio",
+      "type": "Dress",
+      "pic": "https://m.media-amazon.com/images/I/51gORFALQGL._AC_UL320_.jpg",
       "latest": "No"
     },
     {
-        "id": 90,
-        "name": "Parotta",
-        "amt": 99,
-        "shop": "Malabar Paratha",
-        "type": "Food",
-        "pic": "https://images.news18.com/ibnlive/uploads/2022/06/malabar-paratha.jpgg",
+        "id": 2,
+        "name": "Smart Watch",
+        "amt": 1999,
+        "shop": "Fastrack",
+        "type": "Accessories",
+        "pic": "https://m.media-amazon.com/images/I/71yLIDAP4hL._AC_UY218_.jpg",
+        "latest": "Yes"
+      },
+      {
+        "id": 3,
+        "name": "Headphones",
+        "amt": 599,
+        "shop": "Boat",
+        "type": "Digital Products",
+        "pic": "https://m.media-amazon.com/images/I/61+XjHbWrZL._AC_UY218_.jpg",
         "latest": "No"
       },
       {
-        "id": 91,
-        "name": "Burger",
-        "amt": 199,
-        "shop": "Mc Donalds",
-        "type": "Food",
-        "pic": "https://img.freepik.com/free-photo/delicious-burger-with-many-ingredients-isolated-white-background-tasty-cheeseburger-splash-sauce_90220-1266.jpg?size=338&ext=jpg&ga=GA1.1.1700460183.1712016000&semt=sph",
+        "id": 4,
+        "name": "Backpack",
+        "amt": 999,
+        "shop": "Skybags",
+        "type": "Bag",
+        "pic": "https://m.media-amazon.com/images/I/810s53kR8tL._AC_UY218_.jpg",
+        "latest": "Yes"
+      },
+      {
+        "id": 5,
+        "name": "Sneakers",
+        "amt": 799,
+        "shop": "Sparx",
+        "type": "Footwear",
+        "pic": "https://m.media-amazon.com/images/I/61sQWUCY6lL._AC_UL320_.jpg",
         "latest": "No"
       },
       {
-        "id": 92,
-        "name": "Biryani",
-        "amt": 299,
-        "shop": "Babu Biryani",
-        "type": "Food",
-        "pic": "https://media.istockphoto.com/id/1345624336/photo/chicken-biriyani.jpg?s=612x612&w=0&k=20&c=adU_N0P-1SKMQLZu5yu7aPknfLLgbViI8XILqLP92A4=",
-        "latest": "No"
+        "id": 6,
+        "name": "Kurta Set",
+        "amt": 499,
+        "shop": "Westside",
+        "type": "Dress",
+        "pic": "https://images-eu.ssl-images-amazon.com/images/I/71BLkd39VKL._AC_UL450_SR450,320_.jpg",
+        "latest": "Yes"
       },
       {
-        "id": 93,
-        "name": "Meals",
-        "amt": 119,
-        "shop": "Annapoorna",
-        "type": "Food",
-        "pic": "https://thumbs.dreamstime.com/b/south-indian-meals-served-banana-leaf-traditional-cuisine-57371330.jpg",
-        "latest": "No"
-      }
+          "id": 7,
+          "name": "Kids Car",
+          "amt": 4875,
+          "shop": "Singapore Toys",
+          "type": "Toys",
+          "pic": "https://images-eu.ssl-images-amazon.com/images/I/717pTcRrigL._AC_UL450_SR450,320_.jpg",
+          "latest": "Yes"
+        },
+        {
+          "id": 8,
+          "name": "Science Kit",
+          "amt": 775,
+          "shop": "Einstein Box",
+          "type": "Science",
+          "pic": "https://images-eu.ssl-images-amazon.com/images/I/71flpMokoIL._AC_UL450_SR450,320_.jpg",
+          "latest": "No"
+        },
+        {
+          "id": 9,
+          "name": "Brain Booster",
+          "amt": 999,
+          "shop": "Wonder House",
+          "type": "Books",
+          "pic": "https://m.media-amazon.com/images/I/61l7kkcaGFL._AC_UY218_.jpg",
+          "latest": "Yes"
+        },
+        {
+          "id": 10,
+          "name": "Juicer",
+          "amt": 964,
+          "shop": "Preethi",
+          "type": "Home & Kitchen",
+          "pic": "https://images-eu.ssl-images-amazon.com/images/I/7152-mn8mKL._AC_UL600_SR600,400_.jpg",
+          "latest": "No"
+        }
   ]
   
