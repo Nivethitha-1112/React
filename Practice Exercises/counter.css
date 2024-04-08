@@ -1,0 +1,20 @@
+.container {
+    padding: 20px;
+    text-align: center;
+    background-color: aliceblue;
+}
+
+textarea {
+    width: 50%;
+    height: 50%;
+    outline: none;
+    padding: 10px;
+}
+
+.character-count-value.over-limit {
+    color: red;
+}
+
+p {
+    font-weight: bold;
+}
