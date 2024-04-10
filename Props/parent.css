@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.parentc {
+    background-color: rgb(252, 210, 252);
+}
+
+.parentc h2,
+.childc h3 {
+    text-align: center;
+    padding: 5px;
+}
+
+.childc p{
+    text-align: center;
+    padding: 5px;
+}
