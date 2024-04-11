@@ -1,0 +1,10 @@
+.proptypes {
+    background-color: rgb(204, 230, 253);
+    width: 80%;
+    margin: 10px auto;
+    border: 2px solid #a3a3a3;
+    border-radius: 10px;
+    padding: 5px;
+    line-height: 2.5;
+    text-align: center;
+}
