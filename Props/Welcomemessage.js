@@ -8,7 +8,7 @@ const Welcomemessage = (props) => { //defined a functional component called Welc
   return ( //render a welcome message with name 
     <div className='welcome'>
     <h2>PROPS EXAMPLE : 03</h2>
-    <p>Prop Types: If the certain props are not passed from the parent component, 
+    <p>Default Props: If the certain props are not passed from the parent component, 
       the child component uses a default value</p>
     <p>Hello {name}!</p>
     </div>
