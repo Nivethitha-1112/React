@@ -1,0 +1,16 @@
+.footer {
+  background-color: rgb(228, 227, 227);
+  color: black;
+  padding: 10px 20px;
+}
+
+.contact , .copyright{
+  font-size: 14px;
+  text-align: center;
+}
+
+.phone {
+  text-align: center;
+  font-weight: bold;
+  margin-left: 5px;
+}

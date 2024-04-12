@@ -1,0 +1,9 @@
+.landing-page {
+    text-align: center;
+  }
+  
+  .landing-page img {
+    width: 80%;
+    max-width: 80%;
+    height: auto;
+  }
