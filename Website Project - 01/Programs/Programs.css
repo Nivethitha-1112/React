@@ -1,0 +1,49 @@
+.programs {
+    margin: 80px auto 0;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.program img {
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+}
+
+.program {
+    flex-basis: 32%;
+    position: relative;
+    /* defines the intial main size of the item & can be sized based on the content*/
+}
+
+/* In program section the icons below the image */
+.caption {
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0, 15, 152, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+    cursor: pointer;
+    opacity: 0;
+    padding-top: 70%;
+    transition: 0.7s;
+}
+
+.caption img{
+    width: 60px;
+    margin-bottom: 10px;
+}
+/* Only while hovering the text will be displayed  */
+.program:hover .caption{
+    opacity: 1;
+    padding-top: 70%;
+}
