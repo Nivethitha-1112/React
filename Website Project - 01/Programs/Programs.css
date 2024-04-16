@@ -6,27 +6,26 @@
     justify-content: space-between;
 }
 
-.program img {
-    width: 100%;
-    border-radius: 10px;
-    display: block;
-}
-
 .program {
     flex-basis: 32%;
     position: relative;
     /* defines the intial main size of the item & can be sized based on the content*/
 }
 
-/* In program section the icons below the image */
-.caption {
+.program img {
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+}
+
+/* .caption {
     border-radius: 10px;
     position: absolute;
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
-    background: rgba(0, 15, 152, 0.3);
+    background: #000f984d;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -35,15 +34,50 @@
     cursor: pointer;
     opacity: 0;
     padding-top: 70%;
-    transition: 0.7s;
+    transition: .4s;
+} */
+.caption {
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    /* Position from the top edge of the .program */
+    left: 0;
+    transform: translateY(-50%);
+    /* Center vertically */
+    background: #000f984d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+    cursor: pointer;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    transition: 0.9s;
 }
 
-.caption img{
+.caption img {
     width: 60px;
     margin-bottom: 10px;
 }
+
 /* Only while hovering the text will be displayed  */
-.program:hover .caption{
+.program:hover .caption {
     opacity: 1;
-    padding-top: 70%;
+   /* padding-top: 70%;  */
+    transform: translateY(-50%);
+}
+
+/* Media Query */
+
+@media (max-width: 650px) {
+    .programs {
+        flex-direction: column;
+    }
+
+    .program {
+        flex-basis: 100%;
+        margin: 20px;
+    }
 }
