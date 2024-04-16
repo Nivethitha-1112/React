@@ -1,0 +1,42 @@
+Website Structure
+ NAVBAR > HERO > PROGRAM > ABOUT > CAMPUS > TESTIMONIALS > CONTACT {Everything should be imported in app.js}
+ All the images are stored in assets folder
+
+Navbar.js
+    - Install the scroll by using the command > npm install react-scroll
+    - useEffect hook is used to add a scroll event listener to the window when the component mounts (To make navbar sticky)
+    - The navigation links are defined using the Link component from react-scroll
+
+App.js
+    - Entry point of the react application
+    - All the components are imported here
+
+ Hero.js
+ -  Banner of the website with image, content & button
+
+ Program.js
+ -  The structure of program section will be displayed
+
+ About.js
+ - There will be two main sections 
+    - about-left (contains image & play icon)
+    - about-right (content)
+
+Campus.js
+    - gallery section
+    - button with arrow to see more
+
+Testimonial.js
+    - Creates a section to display the testimonials 
+    - slider to control the next & back buttons
+    - useRef hook is used (to directly interact with DOM elements in functional components)
+    - transform style property is used to do sliding effect both left & right
+
+Contact.js
+    - Copied simple contact form coding from web3forms.com
+    - https://docs.web3forms.com/how-to-guides/js-frameworks/react-js/simple-react-contact-form
+    - Access key will be sent to our email, so if someone fills the form the api will generate the message to our email
+
+
+Making the website Responsive
+    - Media queries are used
