@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/report.css'; // Import the CSS file for styling
+import '../styles/report.css'; 
 
 const ExternalReport = () => {
   return (

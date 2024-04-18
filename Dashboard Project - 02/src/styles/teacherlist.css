@@ -42,11 +42,11 @@
     border-radius: 50%;
 } */
 .teacher-detail img {
-    width: 100px; /* Set a fixed width */
-    height: 100px; /* Set a fixed height */
+    width: 100px; 
+    height: 100px; 
     background: #DBDBDB;
     border-radius: 50%;
-    object-fit: cover; /* Ensure the image covers the entire area */
+    object-fit: cover; 
 }
 
 .list:hover{
