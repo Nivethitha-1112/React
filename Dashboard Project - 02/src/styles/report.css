@@ -1,0 +1,15 @@
+.report-container {
+    width: 100vw; 
+    height: 100vh; 
+    overflow: hidden;
+}
+.report-container h1{
+    text-align: center;
+    color: #ADA996;
+    margin-bottom: 20px;
+}
+.report-iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+  }

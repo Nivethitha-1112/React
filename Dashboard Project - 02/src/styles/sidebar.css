@@ -8,7 +8,7 @@
 .logo {
     text-align: center;
     padding: 20px;
-    color: #27374d;
+    color: #726e5c;
     align-items: center;
     display: flex;
     gap: 20px;
@@ -33,9 +33,11 @@
     padding: 10px;
     border-radius: 10px;
     transition: 0.3s ease-in-out;
-    color: #27374d;
+    color: #726e5c;
 }
-.menu--list .item:hover{
-    background: #27374d;
-    color: white;
+.menu--list .item:hover, 
+.active{
+    background: #ADA996;
+    color: white !important;
 }
+
