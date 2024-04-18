@@ -6,7 +6,7 @@ import Sidebar from './components/Sidebar';
 import Content from './components/Content';
 import Profile from './components/Profile';
 import Assignments from './components/Assignments';
-import Reports from './components/Reports'; // Import the Reports component
+import Reports from './components/Reports'; 
 import './App.css';
 
 const App = () => {
@@ -20,7 +20,6 @@ const App = () => {
         <Routes> 
           <Route path='/' element={<Content />} />
           <Route path='/assignments' element={<Assignments />} />
-          {/* Define a new route for the reports page */}
           <Route path='/reports' element={<Reports />} />
         </Routes>
         {isDashboard && <Profile />}
