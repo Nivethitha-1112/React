@@ -29,7 +29,10 @@ body {
     font-size: 20px;
     cursor: pointer;
 }
-
+.nav-link{
+    text-decoration: none;
+    color: #86654B;
+}
 .nav-connect{
     padding: 15px 30px;
     border-radius:50px;
@@ -42,4 +45,14 @@ body {
 
 .nav-connect:hover{
     transform: scale(1.05);
+}
+
+@media (max-width: 840px) {
+    .logo {
+        width: 8%; 
+    }
+    
+    .nav-menu {
+        display: none; 
+    }
 }
