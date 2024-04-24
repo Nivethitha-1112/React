@@ -47,6 +47,7 @@
     color: #F6F4F3;
     cursor: pointer;
     transition: 0.5s;
+    text-decoration: none;
 }
 
 .hero-resume {
@@ -69,4 +70,34 @@
 }
 .download-icon{
     margin: 0px 10px;
+}
+
+/* Media Query */
+
+@media (max-width: 768px) {
+    .hero img {
+        width: 50%; 
+    }
+
+    .hero h3 {
+        font-size: 24px; 
+    }
+
+    .hero p {
+        font-size: 16px; 
+    }
+
+    .hero-action {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px; 
+    }
+    .hero-connect {
+        padding: 10px 20px; 
+        font-size: 18px;
+    }
+    .hero-resume {
+        padding: 10px 20px; 
+        font-size: 18px;
+    }
 }
