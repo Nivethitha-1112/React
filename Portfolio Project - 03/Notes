@@ -1,0 +1,6 @@
+Create components folder wise
+Add CSS & JS files
+Import the components in App.js 
+Use router concepts in App.js to implement the nav-menus in separate page
+In Home page add the Header & Paragraph tag with content
+To insert download symbol install -> npm i react-icons & import <FaDownload/> in the necessary place.
