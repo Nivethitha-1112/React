@@ -1,0 +1,27 @@
+//Redux
+Redux is a predictable state management library 
+
+//State Management
+the process of managing the state of an application in a predictable and 
+centralized manner.
+
+Example:
+App Component (i.e., Top with two branches)
+    - Login Component (Used to logging in or create a account)
+    - Profile Component (Display the information of the user & also can be modified)
+
+Initially we used to manage the state using useState or pass it as props, But if we have more than 10+ components we can pass it as props, so we will be using state management.
+
+In this case we will be creating a store which holds information about different states that we want to access throughout the application and that store will exist on the highest level. (i.e., store  holds the states which can be modified and can be called instead of using props throughout the application)
+
+//Note: Redux is not only used in React, it is used in other JavaScript Applications as well & in Angular Js also.
+
+//Installing Redux: 
+npm install redux react-redux @reduxjs/toolkit (Toolkit - Recommended way to write Redux logic. It simplifies several aspects of Redux development, such as creating slices of state, defining reducers, and handling asynchronous logic)
+
+//Created a store in Index.js
+
+//Reducer
+ Reducers take in the current state and an action as arguments, and return the new state based on the action.
+
+ (state, action) => newState
