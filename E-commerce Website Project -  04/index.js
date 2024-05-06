@@ -3,12 +3,14 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import ShopContextProvider from './context/ShopContext';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+    <ShopContextProvider> 
+       <App />
+   </ShopContextProvider>
+   //to access all data in all pages we are wrapping shopcontextprovider
 );
 
 // If you want to start measuring performance in your app, pass a function
