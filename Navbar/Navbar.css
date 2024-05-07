@@ -22,7 +22,7 @@
     align-items: center;
     list-style: none;
     gap: 50px;
-    color: #626262;
+    color: #626262 !important;
     font-size: 20px;
     font-weight: 500;
 }
@@ -80,3 +80,4 @@
     background: red;
     color: white;
 }
+
